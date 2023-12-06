@@ -31,8 +31,21 @@ pip install -r requirements.txt
 - python manage.py migrate
 - python manage.py runserver
 
-4. Visit http://localhost:8000/ in your browser.
+4. Visit http://localhost:8000/ in your browser. Your webpage will look like this-
 
    Main Page-
    ![Main Page image](images/main.png)
+
+   Signup Page-
+   ![Sign Page image](images/signup.png)
+
+   Login Page-
+   ![Login Page image](images/login.png)
+
+   AddMovies Page-
+   ![Add Movies Page image](images/addmovies.png)
+
+   List Movies Page-
+   ![List Movies Page image](images/moviedetails.png)
+   
    
