@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIES WEBSITE</title>
+    <link rel="stylesheet" href="{%static 'movieapp/base.css'%}">
+    
+</head>
+<body>
+    <header>
+        <h1>Movies Page</h1>
+        <div class="menu">
+            <ul>
+                <li><a href="{% url 'addmovie' %}">ADD MOVIES</a></li>
+                <li><a href="{% url 'listmovie' %}">LIST MOVIES</a></li>
+                <li><a href="{% url 'signup' %}">SIGNUP</a></li>
+                <li><a href="/accounts/login/">LOGIN</a></li>
+                <li><a href="/accounts/logout/">LOGOUT</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="content">
+        {% block bodyblock %}{% endblock %}
+    </div>
+
+</body>
+</html>

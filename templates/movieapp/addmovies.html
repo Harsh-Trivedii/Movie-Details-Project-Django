@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+{%extends 'movieapp/base.html'%}
+{%load static%}
+{%block bodyblock%}
+<link rel="stylesheet" href="{% static 'movieapp/login.css' %}">
+<h1>Add movies</h1>
+<hr>
+<form method="post">
+    {{form.as_p}}
+    {%csrf_token%}
+    <input type="submit" value="submit">
+</form>
+{%endblock%}
