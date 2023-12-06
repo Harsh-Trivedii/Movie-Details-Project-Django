@@ -28,9 +28,11 @@ Welcome to the Movie Details Project! This Django project allows you to perform 
 pip install -r requirements.txt
 
 3. Apply migrations and run the server- 
-python manage.py migrate
-python manage.py runserver
+- python manage.py migrate
+- python manage.py runserver
 
 4. Visit http://localhost:8000/ in your browser.
-   This is how your site will look-
+
+   Main Page-
+   ![Main Page image](images/main.png)
    
